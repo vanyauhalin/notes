@@ -1,11 +1,11 @@
 /**
  * @typedef {(
-*   [A0, A1] extends [infer T0, infer T1] ? [T0, T1?] :
-*   never
-* )} Result
-* @template A0
-* @template A1
-*/
+ *   [A0, A1] extends [infer T0, infer T1] ? [T0, T1?] :
+ *   never
+ * )} Result
+ * @template A0
+ * @template A1
+ */
 
 function main() {
   let a = process.argv.splice(2)
